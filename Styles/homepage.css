@@ -1,0 +1,78 @@
+html, body, ul, li, p, h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --verde-oficial: #2F9427;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--verde-oficial);
+  padding: 10px;
+  color: #fff;
+}
+
+.header .logo {
+  max-width: 100px;
+}
+
+.header nav ul {
+  list-style: none;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-family: Sometype Mono;
+}
+
+.header nav ul li a {
+  font-family: Sometype Mono;
+  text-decoration: none;
+  color: #fff;
+}
+
+.conteiner {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.profile-left {
+  float: left;
+  width: 30%;
+}
+
+.profile-left img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.profile-left .username {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.profile-rigth {
+  float: right;
+  width: 70%;
+}
+
+.bio-description {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.medalhas, .metas-atigidas {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px;
+}
